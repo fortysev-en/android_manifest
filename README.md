@@ -20,6 +20,17 @@ lunch aosp_hikari-userdebug
 make otapackage
 ```
 
+##Rebase issue for manifest
+
+```
+cd .repo/manifests
+git rebase --abort
+git reset --hard origin/nAOSP-7.1.1
+cd -
+
+```
+
+
 ##Jack Xmx issue
 
 ```
